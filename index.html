@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Design</title>
+
+    <!-- Css Link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        
+        <form id="form" class="form card">
+
+            <h2>Register Now</h2>
+            <div class="form-items">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter username">
+                <small>Error Message</small>
+            </div>
+            <div class="form-items">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Enter Email">
+                <small>Error Message</small>
+            </div>
+            <div class="form-items">
+                <label for="password">Password</label>
+                <input type="password" id="password1" placeholder="Enter Password">
+                <small>Error Message</small>
+            </div>
+            <div class="form-items">
+                <label for="password2">Confirm Password</label>
+                <input type="password" id="password2" placeholder="Enter Password Again">
+                <small>Error Message</small>
+            </div>
+            <button type="submit">Register</button>
+        </form>    
+        
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
